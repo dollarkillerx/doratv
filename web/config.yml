@@ -1,0 +1,14 @@
+# 通用配置文件
+
+app:
+  host: "0.0.0.0:8083"
+  log_level: "debug"
+  debug: true
+  max_request: 1000
+
+pgsql:
+  dsn: "host=127.0.0.1 user=dollarkiller dbname=doratv sslmode=disable password=123456"
+  max_idle: 10 # 最大闲置链接数
+  max_open: 100 # 最大链接数
+  time_out: 4 # 超时 Hour
+
